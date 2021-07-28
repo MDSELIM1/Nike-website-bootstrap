@@ -94,6 +94,22 @@
 
 /* product section css ends here  */
 
+/* footer section  */
+
+.footer-text{
+    background-color: #FA804C;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.footer-text p a{
+    color: #fff;
+}
+
+.footer-text p a:hover {
+    border-bottom: 1px solid #363958;
+    color: #363958;
+}
 
 
 /* media query  */
@@ -107,7 +123,18 @@
     .shoes-single{
         margin-top: 5rem;
     }
+    .contact-content > .row {
+        flex-direction: column-reverse;
+    }
+    .contact-single .row {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-under-text {
+        text-align: center;
+    }
 }
+
 
 @media (max-width:460px){
     .navbar-brand img {
